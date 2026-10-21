@@ -17,7 +17,7 @@ dependencies {
 
 tasks.jar{
     manifest{
-        attributes("Main-Class" to "com.beraldo.Main")
+        attributes("Main-Class" to "com.beraldo.arraylist.Main")
     }
 }
 
