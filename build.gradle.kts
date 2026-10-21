@@ -15,6 +15,16 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
+tasks.jar{
+    manifest{
+        attributes("Main-Class" to "com.beraldo.Main")
+    }
+}
+
+java{
+    sourceCompatibility = JavaVersion.VERSION_21
+}
+
 tasks.test {
     useJUnitPlatform()
 }

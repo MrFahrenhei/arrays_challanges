@@ -38,6 +38,8 @@ bin/
 
 ### VS Code ###
 .vscode/
+gradle/
+.idea/
 
 ### Mac OS ###
 .DS_Store
